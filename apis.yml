@@ -1,23 +1,70 @@
 aid: kosmix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kosmix.png
 name: Kosmix
-description: Kosmix is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Kosmix Corporation was a Mountain View, California topic-discovery and search company operating
+  from roughly 2005 to 2011. Rather than returning a ranked list of links, Kosmix automatically assembled
+  a topic "home page for the web" for any subject, aggregating and categorizing content across health,
+  science, food, sports, politics, travel, finance and other verticals. The company also shipped the
+  RightHealth, MeeHive and Tweetbeat properties, the last of which filtered and organized real-time
+  Twitter activity by topic. Kosmix was acquired by Walmart in 2011 and became the nucleus of @WalmartLabs;
+  kosmix.com later 301-redirected to walmartlabs.com and the domain no longer resolves. This profile is
+  retained as a historical record. There is no live Kosmix developer surface, API, or documentation to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/kosmix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: defunct
+x-status-detail: Acquired by Walmart in 2011 and folded into @WalmartLabs. No live web, developer, or API
+  surface remains.
+x-acquired-by: walmart
+x-successor: WalmartLabs
+x-historical-domain: kosmix.com
+x-enrichment-verdict: no-live-surface
+x-enrichment-evidence:
+- kosmix.com has no A/AAAA record (probed 2026-07-19); HTTPS unreachable.
+- kosmix.com DNS is administered by Walmart -- SOA RNAME domainadmin.walmartlabs.com, _dmarc.kosmix.com
+  CNAMEs to _dmarc-r.walmart.com, SPF is "v=spf1 -all" (no mail), CAA restricts issuance to globalsign.com.
+- Domain registered via MarkMonitor, registry expiry 2027-05-26 -- held defensively, not operated.
+- http://kosmix.com/about returned 301 to http://www.walmartlabs.com/ (Internet Archive snapshot 2012-09-11).
+- 'Archived homepage (Internet Archive 2010-12-31) self-describes as "Kosmix: The web organized for you"
+  and is copyright "2007-2010 Kosmix(TM) Corporation".'
+- kosmix.ai is an unrelated growth-equity firm (Kosmix Partners); kosmix.io, kosmix.dev, kosmix.co and
+  getkosmix.com do not resolve or do not serve.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Search
+- Discovery
+- Topic Pages
+- Content Aggregation
+- Social Media
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
