@@ -45,7 +45,7 @@ x-enrichment-evidence:
   and is copyright "2007-2010 Kosmix(TM) Corporation".'
 - kosmix.ai is an unrelated growth-equity firm (Kosmix Partners); kosmix.io, kosmix.dev, kosmix.co and
   getkosmix.com do not resolve or do not serve.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
