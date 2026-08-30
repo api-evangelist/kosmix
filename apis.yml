@@ -88,3 +88,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/walmart/
+  name: Walmart
+  x-relationship: acquired
+  x-evidence: "Kosmix was acquired by Walmart in 2011 and became the nucleus of @WalmartLabs; kosmix."
