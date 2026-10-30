@@ -64,22 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kosmix Corporation was a Mountain View, California topic-discovery and search company operating from roughly 2005 to 2011. Instead of returning a ranked list of links, Kosmix automatically assembled a topic "home page for the web" for any subject, aggregating and categorizing content across health, science, food, sports, politics, travel and finance. It also shipped the RightHealth, MeeHive and Tweetbeat properties, the last of which filtered and organized real-time Twitter activity by topic.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct.** Kosmix was acquired by Walmart in 2011 and became the nucleus of @WalmartLabs.
+Kosmix Corporation was a Mountain View, California topic-discovery and search company operating from roughly 2005 to 2011. Rather than returning a ranked list of links, Kosmix automatically assembled a topic "home page for the web" for any subject, aggregating and categorizing content across health, science, food, sports, politics, travel, finance and other verticals. The company also shipped the RightHealth, MeeHive and Tweetbeat properties, the last of which filtered and organized real-time Twitter activity by topic. Kosmix was acquired by Walmart in 2011 and became the nucleus of @WalmartLabs; kosmix.com later 301-redirected to walmartlabs.com and the domain no longer resolves. This profile is retained as a historical record. There is no live Kosmix developer surface, API, or documentation to enrich.
 
-Backed by: lightspeed-venture-partners
+**Areas:** Company · Search · Discovery · Topic Pages · Content Aggregation · Social Media · Defunct · Acquired
 
-## Enrichment verdict: no live surface
+## Kosmix on APIs.io (historical record)
 
-The API Evangelist enrichment pipeline ran against this repo on 2026-07-19 and found nothing to enrich. No artifacts were generated, because none can be sourced without fabrication:
+Everything profiled for Kosmix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kosmix/](https://apis.io/providers/kosmix/)** — or go straight to one of the APIs or properties below.
 
-- `kosmix.com` has no A/AAAA record; HTTPS is unreachable.
-- The domain's DNS is administered by Walmart — SOA RNAME `domainadmin.walmartlabs.com`, `_dmarc.kosmix.com` CNAMEs to `_dmarc-r.walmart.com`, SPF is `v=spf1 -all` (no mail), and CAA restricts issuance to `globalsign.com`.
-- Registered via MarkMonitor with registry expiry 2027-05-26 — held defensively, not operated.
-- `http://kosmix.com/about` returned a 301 to `http://www.walmartlabs.com/` (Internet Archive, 2012-09-11).
-- The archived homepage (Internet Archive, 2010-12-31) self-describes as "Kosmix: The web organized for you" and carries a "2007-2010 Kosmix™ Corporation" copyright.
+## API Evangelist rating
 
-Note that `kosmix.ai` is an unrelated growth-equity firm (Kosmix Partners) and is **not** this company. `kosmix.io`, `kosmix.dev`, `kosmix.co` and `getkosmix.com` do not resolve or do not serve.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-Future re-runs should skip this repo unless the identity is reassigned to a different, live company.
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kosmix: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kosmix/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
